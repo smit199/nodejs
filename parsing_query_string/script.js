@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const url = require('url');
 const path = require("path");
 
 app.get('/', (req, res) => {
